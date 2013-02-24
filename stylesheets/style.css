@@ -1,0 +1,66 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+@import url(http://fonts.googleapis.com/css?family=Allerta+Stencil);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+body{
+  background: #222 url('/images/bg.png');
+  font: 14px/16px Helvetica, Arial;
+  font-family: 'Allerta Stencil', sans-serif;
+  color: #c1c2c2;
+}
+
+*{
+  box-sizing: border-box;
+}
+h1, h2, h3, h4{
+  font-family: 'Allerta Stencil', sans-serif;
+  color: #fff;
+}
+p{line-height: 1.7;}
+a{color: rgba(255, 255, 255, 0.5);}
+
+#site{width: 100%; max-width: 960px; margin: 0 auto;}
+
+nav{width: 100%; font-size: 1.5rem; font-family: 'Roboto Condensed', sans-serif; margin-bottom: 1em; float: left; width: 100%;}
+nav ul{margin-left: 0; padding: 0;}
+nav li{float: left; width: 15%; list-style: none; padding: 0; margin: 0; margin-right: 1px; position: relative;}
+nav li:first-child{width: 30%; font-size: 3rem;}
+nav li:first-child:before{
+  content: 'dirty pigeon'; text-indent: -99999px; display: block; 
+  width: 2.5em; height: 2.2em; position: absolute; top: -0.5em; left: -1.6em; 
+  background: url('/images/pigeon.png'); 
+  background-size: 100%;
+  transform: -5deg;
+}
+
+
+nav li:first-child a{color: #efefef;line-height: 1.5; text-align: left;}
+nav li:first-child a:hover{
+
+}
+nav li a{display: block; text-decoration: none; line-height: 3; text-transform: uppercase;border-bottom: 2px solid; text-align: center;}
+nav li a:hover{}
+
+header{clear: both; width: 100%;}
+header img{float:left; border: 2px solid #000;}
+header img.primary{width: 73%; border-right: 0;}
+header img.secondary{width: 16%;}
+header img.tertiary{width: 16%;}
+
+#content{
+  width: 100%;
+  max-width: 960px;
+  display: block; width: 100%; clear: both;
+  padding: 40px;
+  background: #111;
+  color: #ccc;
+  overflow: hidden;
+
+  /*font-family: 'Ubuntu', sans-serif;*/
+  font-family: 'Roboto', sans-serif;
+}
+
+section{float: left; padding-right: 1em;}
+.primary{width: 65%;}
+.secondary{width: 35%;}
+
