@@ -15,6 +15,7 @@ body{
 h1, h2, h3, h4{
   font-family: 'Allerta Stencil', sans-serif;
   color: #fff;
+  text-transform: uppercase;
 }
 p{line-height: 1.7;}
 a{color: rgba(255, 255, 255, 0.5);}
