@@ -20,15 +20,16 @@ h1, h2, h3, h4{
 p{line-height: 1.7;}
 a{color: rgba(255, 255, 255, 0.5);}
 
-#site{width: 100%; max-width: 960px; margin: 0 auto; padding-left: 1.6em;}
+#site{width: 100%; max-width: 960px; margin: 0 auto; background: rgba(10, 10, 10, 0.6); box-shadow: 1px 3px 10px rgba(0,0,0,0.6);}
 
-nav{width: 100%; font-size: 1.5rem; font-family: 'Roboto Condensed', sans-serif; margin-bottom: 1em; float: left; width: 100%;}
+
+nav{margin-left: 0.7em; font-size: 1.5rem; font-family: 'Roboto Condensed', sans-serif; margin-bottom: 1em; float: left; width: 100%;}
 nav ul{margin-left: 0; padding: 0;}
-nav li{float: left; width: 15%; list-style: none; padding: 0; margin: 0; margin-right: 1px; position: relative;}
-nav li:first-child{width: 30%; font-size: 3rem;}
+nav li{float: left; width: 16%; list-style: none; padding: 0; margin: 0; margin-right: 1px; position: relative;}
+nav li:first-child{width: 32%; font-size: 3rem;}
 nav li:first-child:before{
   content: 'dirty pigeon'; text-indent: -99999px; display: block; 
-  width: 2.5em; height: 2.2em; position: absolute; top: -0.5em; left: -1.6em; 
+  width: 2.5em; height: 2.2em; position: absolute; top: -0.5em; right: -1.25em; 
   background: url('/images/pigeon.png'); 
   background-size: 100%;
   transform: -5deg;
@@ -42,20 +43,20 @@ nav li:first-child a:hover{
 nav li a{display: block; text-decoration: none; line-height: 3; text-transform: uppercase;border-bottom: 2px solid; text-align: center;}
 nav li a:hover{}
 
-header{clear: both; width: 100%;}
+header{clear: both; width: 100%; background: rgba(0,0,0,0.3); padding: 1em; overflow: hidden;}
 header img{float:left; border: 2px solid #000;}
-header img.primary{width: 73%; border-right: 0;}
-header img.secondary{width: 16%;}
-header img.tertiary{width: 16%;}
+header img.primary{width: 80%; border-right: 0; border-left: 1em; margin-left: 0.5em;}
+header img.secondary{width: 18%;}
+header img.tertiary{width: 18%;}
 
 #content{
   width: 100%;
   max-width: 960px;
   display: block; width: 100%; clear: both;
-  padding: 40px;
-  background: #111;
+  background: rgba(20,20,20,0.6);
   color: #ccc;
   overflow: hidden;
+  padding: 2em;
 
   /*font-family: 'Ubuntu', sans-serif;*/
   font-family: 'Roboto', sans-serif;
@@ -64,4 +65,13 @@ header img.tertiary{width: 16%;}
 section{float: left; padding-right: 1em;}
 .primary{width: 65%;}
 .secondary{width: 35%;}
+
+.tumblr_posts{}
+.tumblr_posts{list-style: none;}
+.tumblr_post{list-style: none; clear: both; width: 100%; display: block; float: left; overflow: hidden; border-bottom: 1px solid; padding: 2em 2em 3em; background: #111;}
+.tumblr_post img{float: left; max-width: 50%; box-shadow: 2px 20px 20px rgba(0,0,0,0.7);}
+.tumblr_post .tumblr_caption{
+  float: left; padding: 1em; background: #000; display: block; 
+  width: 50%; clear: right; font-family: "Allerta Stencil"; 
+  font-size: 2em; max-height: 380px; padding-bottom: 2em; margin: 0.5em 0 0.5em 0; overflow: hidden;}
 
