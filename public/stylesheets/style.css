@@ -68,7 +68,7 @@ section{float: left; padding-right: 1em;}
 
 .tumblr_posts{}
 .tumblr_posts{list-style: none;}
-.tumblr_post{list-style: none; clear: both; width: 100%; display: block; float: left; overflow: hidden; border-bottom: 1px solid; padding: 2em 2em 3em; background: #111;}
+.tumblr_post{list-style: none; clear: both; width: 100%; display: block; float: left; overflow: hidden; border-bottom: 1px solid; padding: 2em 2em 3em; background: #a2a2a2;}
 .tumblr_post img{float: left; max-width: 50%; box-shadow: 2px 20px 20px rgba(0,0,0,0.7);}
 .tumblr_post .tumblr_caption{
   float: left; padding: 1em; background: #000; display: block; 
